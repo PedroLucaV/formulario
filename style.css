@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(197, 245, 149);
+}
+
+section{
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    color: grey;
+    height: 300px;
+}
+
+input{
+    padding-left: 10px;
+    border-radius: 50px;
+    outline-color: aliceblue;
+    margin: 10px 0;
+    border-color: black;
+}
+
+button{
+    background-color: chocolate;
+    margin-top: 10px;
+    color: wheat;
+    border-color: white;
+}
