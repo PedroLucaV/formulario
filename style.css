@@ -26,8 +26,24 @@ input{
 }
 
 button{
+    align-self: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
     background-color: chocolate;
     margin-top: 10px;
     color: wheat;
     border-color: white;
+}
+
+.showPassword{
+    border-radius: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+.show-pas{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
