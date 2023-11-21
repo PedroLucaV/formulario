@@ -13,7 +13,7 @@ function validaFormulario(){
         }else if(!emailRegex.test(email)){
             alert("Digite um e-mail valido!")
         }else{
-            alert("Obrigado!")
+            alert("Obrigado, agora sua conta foi salva!")
         }
     }
 }
