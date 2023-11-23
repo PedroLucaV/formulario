@@ -6,6 +6,7 @@ function validaFormulario(){
 
     // Validação dos campos
     if(nome === '' || email === '' || senha === ''){
+        document.getElementById('envia').type = "button"
         alert("Por favor, preencha os espaços")
     }else{
         if(senha.length < 8){
@@ -13,6 +14,7 @@ function validaFormulario(){
         }else if(!emailRegex.test(email)){
             alert("Digite um e-mail valido!")
         }else{
+            document.getElementById('envia').type = "submit"
             alert("Obrigado, agora sua conta foi salva!")
         }
     }
